@@ -1,0 +1,7 @@
+use sampledb;
+/*
+load data infile 'shachikuhyo.csv'   into table shachikuhyo      fields terminated by ',' lines terminated by x'0D0A'
+load data infile 'branch.csv'        into table branchtb         fields terminated by ',' lines terminated by x'0D0A'
+load data infile 'torihiki.csv'      into table torihiki         fields terminated by ',' lines terminated by x'0D0A'
+*/
+load data infile 'kenkosindan.csv'   into table kenkosindantb    fields terminated by ',' lines terminated by x'0D0A'
